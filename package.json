@@ -1,0 +1,19 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab2 for CPP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vova_19.05",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5",
+    "mongoose": "^5.5.11"
+  }
+}
