@@ -38,7 +38,7 @@ app.get("/api/tasks/:id", function(req, res){
 });
 
 app.post("/api/tasks", jsonParser, function (req, res) {
-    if(!req.body) return res.sendState(400);
+    if(!req.body) return res.sendStatus(400);
 
     const taskName = req.body.name;
     const taskDescription = req.body.description;
@@ -62,7 +62,7 @@ app.delete("/api/tasks/:id", function(req, res){
 });
 
 app.put("/api/tasks", jsonParser, function(req, res){
-    if(!req.body) return res.sendState(400);
+    if(!req.body) return res.sendStatus(400);
 
     const id = req.body.id;
     const taskName = req.body.name;
